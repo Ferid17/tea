@@ -1,0 +1,116 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+} 
+ 
+header { 
+    padding: 15px 150px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+ 
+header div ul { 
+    list-style: none; 
+    display: flex; 
+    gap: 30px; 
+    font-size: 15px; 
+    font-weight: 400; 
+} 
+ 
+.tea-logo { 
+    width: 60px; 
+    margin: 0px;
+} 
+ 
+.tea-logo img { 
+    width: 100px; 
+    margin: 0px;
+} 
+ 
+.action-text ul li img { 
+    width: 30px; 
+    margin: 0px;
+} 
+ 
+.action-text ul li :last-child { 
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header div { 
+    display: inline-block; 
+    margin: 1%;
+} 
+ 
+.header-nav { 
+    margin: 0 0px;
+    margin-bottom: 0px; 
+    
+} 
+ 
+.header-nav ul li { 
+    display: inline-block; 
+    margin: 15px;
+} 
+ 
+.main-img { 
+    background-image: url(../img/Group91.jpg); 
+    padding: 50px 150px; 
+    min-height: 350px; 
+    display: flex; 
+    align-items: start; 
+    justify-content: end; 
+    background-size: cover; 
+    flex-flow: column; 
+    padding-left: 15px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    color: white; 
+    font-weight: 300; 
+} 
+ 
+.main-img h1 { 
+    width: 50%;
+    font-size: 40px; 
+    margin-bottom: 20px; 
+    font-weight: 300; 
+} 
+ 
+.main-img p { 
+    width: 30%; 
+    font-size: 15px; 
+    opacity: 0.7; 
+} 
+ 
+.main-quote { 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 100px 0 50px 0; 
+} 
+ 
+.main-quote p { 
+    width: 35; 
+    font-size: 20px 
+    text-align: center; 
+    font-weight: 300; 
+} 
+ 
+.main-collection { 
+    padding: 40px 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-flow: column;
+}
+
+.tea-collection {
+    display: flex;
+}
+
+.text-clients {
+    display: flex;
+}
